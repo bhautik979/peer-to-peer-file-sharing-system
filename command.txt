@@ -1,0 +1,33 @@
+Commands:
+
+Tracker
+g++ -o tracker tracker.cpp
+./tracker tracker_info.txt 1
+
+
+client
+g++ -o client client.cpp -lcrypto
+./client 127.0.0.1:8001 tracker_info.txt
+
+create_user a 1
+login a 1
+create_group g1
+list_requests g1
+accept_request g1 b
+accept_request g1 c
+upload_file C:\Users\bhaut\Desktop\file1.pdf g1
+
+
+
+create_user b 1
+login b 1
+create_group g2
+join_group g1
+upload_file C:\Users\bhaut\Desktop\file2.pdf g2
+
+create_user c 1
+login c 1
+create_group g3
+join_group g1
+list_files g1
+download_file g1 file1.pdf C:\Users\bhaut\Desktop\Download 

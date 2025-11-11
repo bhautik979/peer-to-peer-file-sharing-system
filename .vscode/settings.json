@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "ostream": "cpp",
+        "unordered_map": "cpp",
+        "condition_variable": "cpp",
+        "iostream": "cpp"
+    },
+    "C_Cpp.default.compilerPath": "/mnt/c/Users/bhaut/Desktop/Ubuntu/P2P_Bhautik/Project/client/client.cpp"
+}
